@@ -12,3 +12,5 @@ python manage.py collectstatic --no-input
 python manage.py migrate
 
 python manage.py createsuperuser --noinput || true
+# Fill the demo account with sample contacts
+python manage.py seed_demo
